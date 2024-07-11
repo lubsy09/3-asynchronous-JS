@@ -19,8 +19,8 @@ const writeFilePro = (file, data) => {
     });
 };
 
-///////////// Consuming Promises with AsyncAwait and 
-///////////// Waiting for multiple Promises 
+///////////// Consuming Promises with AsyncAwait 
+///////////// Waiting for multiple Promises Simulaaneously
 
 const getDogPic = async () => {
  try {
