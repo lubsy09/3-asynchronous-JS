@@ -23,7 +23,7 @@ const writeFilePro = (file, data) => {
 
 const getDogPic = async () => {
  try {
-  const data =  await readFilePro(`${__dirname}/doggg.txt`);
+  const data =  await readFilePro(`${__dirname}/dog.txt`);
   console.log(`Breed: ${data}`);
 
   const res = await superagent.get(
